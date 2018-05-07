@@ -26,10 +26,23 @@ class ViewController: UIViewController {
         return .lightContent
     }
     
-    @IBAction func calcPressed(_ sender: UIButton) {
-        if 0...9 ~= sender.tag {
-            calcValue.text = (calcValue.text ?? "") + String(sender.tag)
-        }
+    private func append(text: String) {
+        calcValue.text = (calcValue.text ?? "") + text
+    }
+    
+    @IBAction func clearPressed(_ sender: UIButton) {
+        calcValue.text = ""
+    }
+    
+    @IBAction func numPressed(_ sender: UIButton) {
+        append(text: String(sender.tag))
+    }
+    
+    @IBAction func calcPressed(_ sender: CalcButton) {
+        append(text: String(sender.charVal))
+    }
+    
+    @IBAction func equalPressed(_ sender: UIButton) {
     }
 }
 

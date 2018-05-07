@@ -25,3 +25,18 @@ class RoundButton: UIButton {
     }
     
 }
+
+@IBDesignable
+class CalcButton: RoundButton, CharacterValue {
+    
+    @IBInspectable
+    var charVal: NSString = "0"
+    
+    var charValue: Character {
+        return Character(charVal as String)
+    }
+    
+    
+    
+}
+
