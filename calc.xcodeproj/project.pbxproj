@@ -16,6 +16,7 @@
 		2E6B4097209D6CCB00CFFABF /* calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B4096209D6CCB00CFFABF /* calcUITests.swift */; };
 		2E6B40A5209D6D5600CFFABF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B40A4209D6D5600CFFABF /* RoundButton.swift */; };
 		2E6B40A920A0084800CFFABF /* Arithmetica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6B40A820A0084800CFFABF /* Arithmetica.swift */; };
+		2ECF14DF20A4A5D20015D381 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2ECF14DE20A4A5D20015D381 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2E6B4098209D6CCB00CFFABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6B40A4209D6D5600CFFABF /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		2E6B40A820A0084800CFFABF /* Arithmetica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arithmetica.swift; sourceTree = "<group>"; };
+		2ECF14DD20A4A50F0015D381 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2ECF14DE20A4A5D20015D381 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				2E6B4082209D6CCB00CFFABF /* Info.plist */,
 				2E6B40A4209D6D5600CFFABF /* RoundButton.swift */,
 				2E6B40A820A0084800CFFABF /* Arithmetica.swift */,
+				2ECF14DD20A4A50F0015D381 /* README.md */,
+				2ECF14DE20A4A5D20015D381 /* LICENSE */,
 			);
 			path = calc;
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 			files = (
 				2E6B4081209D6CCB00CFFABF /* LaunchScreen.storyboard in Resources */,
 				2E6B407E209D6CCB00CFFABF /* Assets.xcassets in Resources */,
+				2ECF14DF20A4A5D20015D381 /* LICENSE in Resources */,
 				2E6B407C209D6CCA00CFFABF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
